@@ -1,0 +1,28 @@
+@import './reset.css';
+@import './header.css';
+@import './presentacion.css';
+@import './sobre-mi.css';
+@import './skills.css';
+@import './hobbies.css';
+@import './academica.css';
+@import './experiencia.css';
+@import './contacto.css';
+@import './footer.css';
+
+:root{
+    /*Colores*/
+    --base-amarillo: #ffff00;
+    --base-grisOscuro: #333333;
+    --base-grisPlata:#ececec;
+
+    --sombra:#cdcdcd ;
+    --negro: black;
+    --blanco: #fff;
+    --rojo: red;
+    }
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #fff;
+    
+}

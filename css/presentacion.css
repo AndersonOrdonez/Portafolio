@@ -1,0 +1,103 @@
+.presentacion {
+    margin: 2rem 5%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.presentacion__descripcion--principal {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 1rem 0;
+    color: var(--base-grisOscuro);
+
+}
+
+.presentacion__descripcion--subtitulo {
+    font-size: 0.75rem;
+}
+
+.links-personales {
+    display: flex;
+    margin: 1rem 0 0;
+    flex-wrap: wrap;
+}
+
+.links-personales__item {
+    margin-top: 0.2rem;
+    margin-right: 0.8rem;
+    list-style: none;
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+
+.links-personales__item--link {
+    text-decoration: none;
+    color: var(--negro);
+}
+
+.links-personales__item--link .icono{
+    margin-left: 0.2rem;
+}
+
+.presentacion__foto-perfil {
+    height: 100px;
+    width: 100px;
+    margin-left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    background-image: url(../img/IMG_4092\ BN.jpg);
+}
+
+@media  screen and (min-width:768px){ 
+    .presentacion {
+        margin: 2rem 5%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .presentacion__descripcion {
+        width: calc(100vw - 40%);
+    }
+
+    .presentacion__descripcion--principal {
+        font-size: 2rem;
+        margin: 1rem 0;    
+    }
+    
+    .presentacion__descripcion--subtitulo {
+        font-size: 1.2rem;
+    }
+
+    .links-personales__item {
+        font-size: 1rem;
+
+    }
+
+    .presentacion__foto-perfil {
+        height: 180px;
+        width: 180px;
+    }
+    
+}
+
+@media screen and (min-width:1024px){ 
+    .presentacion {
+        margin: 2rem 8%;
+    }
+
+    .presentacion__descripcion {
+        width: calc(100vw - 48%);
+    }
+
+    .presentacion__descripcion--principal {
+        font-size: 2.5rem;   
+    }
+
+    .presentacion__foto-perfil {
+        height: 240px;
+        width: 240px;
+    }
+    
+}

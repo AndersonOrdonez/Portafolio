@@ -1,0 +1,15 @@
+footer {
+    margin: 2rem 5%;
+}
+
+footer h2 {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+@media  screen and (min-width:1024px){ 
+    footer {
+        margin: 2rem 8%;
+    }
+
+}

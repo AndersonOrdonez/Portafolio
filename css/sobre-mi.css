@@ -1,0 +1,42 @@
+.sobre-mi {
+    background-color: var(--base-amarillo);
+}
+
+.sobre-mi__container {
+    padding: 2rem 5%;
+}
+
+.sobre-mi__titulo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 0 0 1rem;
+    color: var(--base-grisOscuro);
+}
+
+.sobre-mi__parrafo {
+    font-size: 0.75rem;
+}
+
+
+@media  screen and (min-width:768px){ 
+    .sobre-mi__titulo {
+        font-size: 1.7rem;
+    }
+    .sobre-mi__parrafo {
+        font-size: 1rem;
+    } 
+    
+    
+}
+
+@media  screen and (min-width:1024px){ 
+    .sobre-mi__container {
+        padding: 2rem 8%;
+    }
+    
+    .sobre-mi__parrafo {
+        font-size: 1.1rem;
+    }
+
+} 
+    
