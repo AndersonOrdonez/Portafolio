@@ -34,7 +34,7 @@
 }
 .menu__email:hover {
     text-decoration: underline;
-    color: var(--base-amarillo);
+    text-decoration-color:  var(--base-amarillo);
 }
 
 @media  screen and (min-width:768px){ 
@@ -93,6 +93,6 @@
         text-transform:uppercase;
         font-weight: 600;
         text-decoration: underline;
-        color: var(--base-amarillo);
+        text-decoration-color: var(--base-amarillo);
     }
 }
