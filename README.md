@@ -1,6 +1,6 @@
 📝🚀 🔥 ✨   
 # Portafolio ONE G4 🚀  
-Portafolio ONE Front-End - AluraGeek: Nuestro primer portafolio.
+Portafolio ONE Front-End: Nuestro primer portafolio.
 > **[Ver demostración](https://andersonordonez.github.io/Portafolio/)**
 
 El siguiente proyecto es parte de la formación de Front End de ONE - Oracle Next Generation con Alura Latam. **Implementación de proyetos con HTML, CSS Flexbox, Responsividad y JavaScript.**  
